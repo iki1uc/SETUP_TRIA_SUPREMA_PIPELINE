@@ -2,24 +2,64 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>iki1uc – ID</title>
+<title>ID – TRIA SUPREMA PIPELINE</title>
 
 <style>
-body { background:#000; color:#0f0; font-family:monospace; }
-h1 { color:#6cf; }
-pre { background:#111; border:1px solid #333; padding:10px; }
+body { background:#000; color:#0f0; font-family:monospace; padding:40px; }
+h1 { color:#6cf; letter-spacing:4px; margin-bottom:30px; }
+pre {
+    background:#111;
+    border:1px solid #333;
+    padding:20px;
+    border-radius:8px;
+}
 </style>
 </head>
 
 <body>
 
-<h1>iki1uc – Identität</h1>
+<h1>Identität – TRIA SUPREMA PIPELINE</h1>
 
 <pre>
+ID = TRIA-SUPREMA-SETUP
 CORE = iki1uc
 VERSION = 1.0
-CODE = RAW
-LAGE = ROOT / Creator / NC
+MODE = RAW-REAL
+
+# TRIAXIOM
+A1 = Struktur erzeugt Ordnung
+A2 = Ordnung erzeugt Bewegung
+A3 = Bewegung erzeugt System
+
+# RESPO.PIPELINE
+P4 = start
+P0 = wake
+P1 = melt
+P2 = merge
+Pe = finalize
+
+PIPELINE.NEXT:
+  4 → 0
+  0 → 1
+  1 → 2
+  2 → 4
+
+PIPELINE.RESULT = Φ∞(REAL)
+
+# AXI
+AXI.ACHSEN = X, Y, Z, T, S, MOVE, STATE, FLOW, α, β, γ
+AXI.MODE = 6D
+
+# STATION
+STATION = LAGE
+STATION.STATE = aktiv
+STATION.LEVEL = SUPREMA
+STATION.READY = 92%
+
+# ORT
+ORT = ROOT / Creator / NC
+ORT.MODE = Direkt-REAL
+
 STATUS = Online
 </pre>
 
