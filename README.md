@@ -1,23 +1,31 @@
-# iki1uc – ROOT
+# SETUP_TRIA_SUPREMA_PIPELINE
 
-## Zweck
-Dieses Repository bildet den Ursprung der gesamten Struktur.  
-Es stellt die öffentliche Identität des Systems bereit und dient  
-als Einstiegspunkt für alle Module, Achsen und Bereiche.
+Dieses Repository bildet die Setup‑Struktur für die **TRIA‑SUPREMA‑Pipeline**.  
+Es verbindet drei Hauptsysteme:
 
-## Identität
-- CORE: iki1uc  
-- VERSION: 1.0  
-- CODE: RAW  
-- LAGE: ROOT / Creator / NC  
-- STATUS: Online  
+- **TriAxiom** (Struktur → Ordnung → Bewegung → System)  
+- **RESPO‑Pipeline** (P4 → P0 → P1 → P2 → Pe)  
+- **AXI‑Achsenkern** (X, Y, Z, T, S, MOVE, STATE, FLOW, α, β, γ)
 
-## Inhalt
-- index.html – öffentliche Landing‑Page  
-- ID.html – Identitätsdarstellung  
-- visual/ – Visualisierungen  
-- modules/ – Verlinkte System‑Repos  
+Das Setup dient als zentrale Vorbereitungsschicht für alle folgenden Module.
 
-## Hinweis
-Dieses Repository enthält keine Engine‑Mechanismen.  
-Es dient ausschließlich der öffentlichen Darstellung und Struktur.
+---
+
+## 🎯 Zweck des Projekts
+
+Die TRIA‑SUPREMA‑Pipeline ist die höchste Form der TriAxiom‑Verarbeitung.  
+Sie kombiniert:
+
+- logische Struktur (TriAxiom)  
+- technische Verarbeitung (RESPO)  
+- Achsen‑Routing (AXI)  
+- 6D‑Matrix‑Kontrolle  
+
+Das Setup‑Modul stellt sicher, dass alle Systeme korrekt initialisiert werden.
+
+---
+
+## 🔧 Pipeline‑Definition
+
+Die Pipeline folgt der RESPO‑Struktur:
+
