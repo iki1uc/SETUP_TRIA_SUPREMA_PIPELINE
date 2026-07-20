@@ -1,40 +1,48 @@
-(async function () {
+window.ULTRA3_ENGINE = {
+    state: "ACTIVE",
+    mode: "REAL-LIVE",
+    version: "3.0 TRUE FULL",
 
-    const ua = navigator.userAgent || navigator.vendor || window.opera;
+    core: "ULTRAKERN.me",
+    meta: "ULTRAMETA.me",
+    source: "ULTRASOURCE.me",
 
-    const isPX =
-        /iPhone|iPad|iPod/i.test(ua) ||
-        (/Android/i.test(ua));
+    pipe: ["h1","e3","o6","o9","b12","w128","win∞"],
+    axis: ["X","Y","Z","U","V","W"],
+    vector: ["horizont","breite","tiefe","ultra","wert"],
 
-    let deviceType = isPX ? "PX" : (navigator.maxTouchPoints > 0 ? "PQ" : "PR");
-    let deviceRoute = isPX ? "viPIio" : "HH";
+    chain: [
+        "h1","e3","o6","o9","b12","w128",
+        "nano","atom","raw","operator",
+        "rev1.0","beat∞","win∞",
+        "xarg","ghosterror","7sinn"
+    ],
 
-    document.getElementById("hh-device").innerHTML =
-        `<b>Gerät:</b> ${deviceType}`;
+    fusion: "win∞(rev1.0(beat∞(o9(o6(e3(h1(x)))))))",
 
-    document.getElementById("hh-route").innerHTML =
-        `<b>Route:</b> ${deviceRoute}`;
+    zero: ["ZEROABSOLUT.me","PRIMEZERO.me","zero-core"],
 
-    const tria = await fetch("tria.json").then(r => r.json()).catch(() => null);
-    const respo = await fetch("respo.json").then(r => r.json()).catch(() => null);
-    const axi = await fetch("axi.json").then(r => r.json()).catch(() => null);
-    const tem = await fetch("TEM.id.json").then(r => r.json()).catch(() => null);
+    html_matrix: [
+        "1.html","3.html","6.html","9.html","12.html",
+        "RAUM3.html","698869.html","gitter.html","cluster.html"
+    ],
 
-    const connected = tria && respo && axi;
+    rooms: [
+        "ROOM.main.room",
+        "ROOM.raw.room",
+        "ME-NC3x3.room",
+        "ME-NC6eM6D.room",
+        "ME-NC9x9.room"
+    ],
 
-    document.getElementById("pipe-tria").innerHTML =
-        `<b>TriAxiom:</b> ${tria ? "geladen" : "fehlt"}`;
+    meta_rooms: [
+        "METAh.room","METAb.room","METAt.room",
+        "META360.room","META2.room","META3.room"
+    ],
 
-    document.getElementById("pipe-respo").innerHTML =
-        `<b>RESPO:</b> ${respo ? "geladen" : "fehlt"}`;
+    octa3: ["server","web","net","script","js","html","css","dom"],
+    help: ["help.me","error.me","ghost.me"],
 
-    document.getElementById("pipe-axi").innerHTML =
-        `<b>AXI:</b> ${axi ? "geladen" : "fehlt"}`;
-
-    document.getElementById("pipe-tem").innerHTML =
-        `<b>TEM:</b> ${tem ? "aktiv" : "fehlt"}`;
-
-    document.getElementById("pipe-connect").innerHTML =
-        `<b>Pipeline:</b> ${connected ? "VERBUNDEN" : "NICHT VERBUNDEN"}`;
-
-})();
+    pcta3: "24X",
+    recall: ">=91%"
+};
